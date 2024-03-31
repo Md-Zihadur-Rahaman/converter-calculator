@@ -9,19 +9,21 @@
   </head>
   <body>
     <div class="bg-slate-700 w-full h-screen">
-      <header class="bg-pink-500 p-5 flex flex-row items-center rounded-b-2xl">
-        <a href="index.html" class="w-full">
+      <header
+        class="bg-pink-500 p-5 flex flex-row gap-2 items-center rounded-b-2xl"
+      >
+        <a href="index.html" class="md:w-full">
           <img
             src="https://www.transparentpng.com/thumb/house/house-vector-5.png"
             alt=""
             class="p-2 bg-white rounded-lg w-10 h-10"
         /></a>
         <div class="w-full">
-          <h1 class="text-white text-4xl font-extrabold">
+          <h1 class="text-white text-base md:text-4xl font-extrabold">
             Celsius to Fahrenheit
           </h1>
         </div>
-        <div class="w-full"></div>
+        <div class="md:w-full"></div>
       </header>
       <!-- main -->
       <div class="py-5">
@@ -33,7 +35,7 @@
             <input
               type="text"
               onkeyup="calculationCTF()"
-              class="text-pink-500 py-3 px-4 rounded-md outline-none border border-pink-500"
+              class="md:w-4/12 w-8/12 text-pink-500 py-3 px-4 rounded-md outline-none border border-pink-500"
               id="input"
             />
             <p class="text-2xl text-black font-bold">Celsius</p>

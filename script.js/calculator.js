@@ -34,10 +34,10 @@ function calculationOEC() {
     console.log(numbers);
     const reminder = numbers % 2;
     if(reminder === 0) {
-        output.innerText = 'The number is Even Number';
+        output.innerText = `The Number ${numbers} is Even Number`;
     }
     else {
-        output.innerText = 'The number is Odd Number';
+        output.innerText = `The Number ${numbers} is Odd Number`;
     }
 }
 // Leap Year checker
@@ -47,9 +47,16 @@ function calculationLY() {
     console.log(year);
     
     if(year % 4 === 0  ) {
-        output.innerText = 'Leap year';
+        return output.innerText = `The year of ${year} is Leap Year`;
     }
-    else {
-        output.innerText = 'Not a leap year';
-    }
+    return output.innerText = `The year of ${year} is not Leap Year`;
 }
+
+
+
+// git init
+// git add README.md 
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/Md-Zihadur-Rahaman/converter-calculator.git
+// git push -u origin main
